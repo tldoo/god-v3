@@ -1,0 +1,17 @@
+--[[
+WHAT DOES GODV3 DO?:
+
+when you play music on a boombox no one can mute the audio your playing
+Makes you immune to katanas and bullets
+And you cannot be grabbed or stomped
+
+YOU MUST EXECUTE THIS SCRIPT WHILE YOU HAVE FORCEFIELD AKA WHILE YOUR LOADING IN
+
+]]
+getgenv().Settings = {
+['GodBlock'] = 'On', -- [On / Off]
+['AutoRejoin1'] = 'On', -- [On / Off] [ if godv3 fails to turn on when you first join it will auto rejoin you ]
+['AutoRejoin2'] = 'Off', -- [On / Off] [ If your godv3 turns off it will rejoin you and turn godv3 back on ]
+}
+
+loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaGuiGodv3", true))()
